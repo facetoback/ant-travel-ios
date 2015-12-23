@@ -28,7 +28,7 @@
         <!--出发-->
         <scene sceneID="NoD-Ep-TB9">
             <objects>
-                <viewController title="出发" id="6Bv-rJ-ame" sceneMemberID="viewController">
+                <viewController title="出发" id="6Bv-rJ-ame" customClass="ViewController" customModule="ant_travel_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="moe-qI-zac"/>
                         <viewControllerLayoutGuide type="bottom" id="GVA-ns-LXo"/>
@@ -36,10 +36,24 @@
                     <view key="view" contentMode="scaleToFill" id="9PI-2A-if1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Ck-F0-Aw2">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Ck-F0-Aw2" firstAttribute="top" secondItem="moe-qI-zac" secondAttribute="bottom" id="Zrn-kl-yof"/>
+                            <constraint firstItem="6Ck-F0-Aw2" firstAttribute="leading" secondItem="9PI-2A-if1" secondAttribute="leading" id="hSS-jn-zoa"/>
+                            <constraint firstAttribute="trailing" secondItem="6Ck-F0-Aw2" secondAttribute="trailing" id="i63-Bx-zIW"/>
+                            <constraint firstItem="GVA-ns-LXo" firstAttribute="top" secondItem="6Ck-F0-Aw2" secondAttribute="bottom" id="lw9-dh-RYy"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="出发" id="pSZ-ES-I9G"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imageView" destination="6Ck-F0-Aw2" id="niG-GN-Rwz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T6h-5Y-ecX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
