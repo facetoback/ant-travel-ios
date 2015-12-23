@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A814B881C2A800900BA3E84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A814B871C2A800900BA3E84 /* AppDelegate.swift */; };
+		1A814B8A1C2A800900BA3E84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A814B891C2A800900BA3E84 /* ViewController.swift */; };
+		1A814B8D1C2A800900BA3E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A814B8B1C2A800900BA3E84 /* Main.storyboard */; };
+		1A814B8F1C2A800900BA3E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A814B8E1C2A800900BA3E84 /* Assets.xcassets */; };
+		1A814B921C2A800900BA3E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A814B901C2A800900BA3E84 /* LaunchScreen.storyboard */; };
+		1A814B9D1C2A800900BA3E84 /* ant_travel_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A814B9C1C2A800900BA3E84 /* ant_travel_iosTests.swift */; };
+		1A814BA81C2A800900BA3E84 /* ant_travel_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A814BA71C2A800900BA3E84 /* ant_travel_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A814B991C2A800900BA3E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A814B7C1C2A800900BA3E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A814B831C2A800900BA3E84;
+			remoteInfo = "ant-travel-ios";
+		};
+		1A814BA41C2A800900BA3E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A814B7C1C2A800900BA3E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A814B831C2A800900BA3E84;
+			remoteInfo = "ant-travel-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A814B841C2A800900BA3E84 /* ant-travel-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ant-travel-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A814B871C2A800900BA3E84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A814B891C2A800900BA3E84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A814B8C1C2A800900BA3E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A814B8E1C2A800900BA3E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A814B911C2A800900BA3E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A814B931C2A800900BA3E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A814B981C2A800900BA3E84 /* ant-travel-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ant-travel-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A814B9C1C2A800900BA3E84 /* ant_travel_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ant_travel_iosTests.swift; sourceTree = "<group>"; };
+		1A814B9E1C2A800900BA3E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A814BA31C2A800900BA3E84 /* ant-travel-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ant-travel-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A814BA71C2A800900BA3E84 /* ant_travel_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ant_travel_iosUITests.swift; sourceTree = "<group>"; };
+		1A814BA91C2A800900BA3E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A814B811C2A800900BA3E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A814B951C2A800900BA3E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A814BA01C2A800900BA3E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A814B7B1C2A800900BA3E84 = {
+			isa = PBXGroup;
+			children = (
+				1A814B861C2A800900BA3E84 /* ant-travel-ios */,
+				1A814B9B1C2A800900BA3E84 /* ant-travel-iosTests */,
+				1A814BA61C2A800900BA3E84 /* ant-travel-iosUITests */,
+				1A814B851C2A800900BA3E84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A814B851C2A800900BA3E84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A814B841C2A800900BA3E84 /* ant-travel-ios.app */,
+				1A814B981C2A800900BA3E84 /* ant-travel-iosTests.xctest */,
+				1A814BA31C2A800900BA3E84 /* ant-travel-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A814B861C2A800900BA3E84 /* ant-travel-ios */ = {
+			isa = PBXGroup;
+			children = (
+				1A814B871C2A800900BA3E84 /* AppDelegate.swift */,
+				1A814B891C2A800900BA3E84 /* ViewController.swift */,
+				1A814B8B1C2A800900BA3E84 /* Main.storyboard */,
+				1A814B8E1C2A800900BA3E84 /* Assets.xcassets */,
+				1A814B901C2A800900BA3E84 /* LaunchScreen.storyboard */,
+				1A814B931C2A800900BA3E84 /* Info.plist */,
+			);
+			path = "ant-travel-ios";
+			sourceTree = "<group>";
+		};
+		1A814B9B1C2A800900BA3E84 /* ant-travel-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A814B9C1C2A800900BA3E84 /* ant_travel_iosTests.swift */,
+				1A814B9E1C2A800900BA3E84 /* Info.plist */,
+			);
+			path = "ant-travel-iosTests";
+			sourceTree = "<group>";
+		};
+		1A814BA61C2A800900BA3E84 /* ant-travel-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A814BA71C2A800900BA3E84 /* ant_travel_iosUITests.swift */,
+				1A814BA91C2A800900BA3E84 /* Info.plist */,
+			);
+			path = "ant-travel-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A814B831C2A800900BA3E84 /* ant-travel-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A814BAC1C2A800900BA3E84 /* Build configuration list for PBXNativeTarget "ant-travel-ios" */;
+			buildPhases = (
+				1A814B801C2A800900BA3E84 /* Sources */,
+				1A814B811C2A800900BA3E84 /* Frameworks */,
+				1A814B821C2A800900BA3E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ant-travel-ios";
+			productName = "ant-travel-ios";
+			productReference = 1A814B841C2A800900BA3E84 /* ant-travel-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A814B971C2A800900BA3E84 /* ant-travel-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A814BAF1C2A800900BA3E84 /* Build configuration list for PBXNativeTarget "ant-travel-iosTests" */;
+			buildPhases = (
+				1A814B941C2A800900BA3E84 /* Sources */,
+				1A814B951C2A800900BA3E84 /* Frameworks */,
+				1A814B961C2A800900BA3E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A814B9A1C2A800900BA3E84 /* PBXTargetDependency */,
+			);
+			name = "ant-travel-iosTests";
+			productName = "ant-travel-iosTests";
+			productReference = 1A814B981C2A800900BA3E84 /* ant-travel-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A814BA21C2A800900BA3E84 /* ant-travel-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A814BB21C2A800900BA3E84 /* Build configuration list for PBXNativeTarget "ant-travel-iosUITests" */;
+			buildPhases = (
+				1A814B9F1C2A800900BA3E84 /* Sources */,
+				1A814BA01C2A800900BA3E84 /* Frameworks */,
+				1A814BA11C2A800900BA3E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A814BA51C2A800900BA3E84 /* PBXTargetDependency */,
+			);
+			name = "ant-travel-iosUITests";
+			productName = "ant-travel-iosUITests";
+			productReference = 1A814BA31C2A800900BA3E84 /* ant-travel-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A814B7C1C2A800900BA3E84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaoheng;
+				TargetAttributes = {
+					1A814B831C2A800900BA3E84 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8CFNW2BD69;
+					};
+					1A814B971C2A800900BA3E84 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8CFNW2BD69;
+						TestTargetID = 1A814B831C2A800900BA3E84;
+					};
+					1A814BA21C2A800900BA3E84 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8CFNW2BD69;
+						TestTargetID = 1A814B831C2A800900BA3E84;
+					};
+				};
+			};
+			buildConfigurationList = 1A814B7F1C2A800900BA3E84 /* Build configuration list for PBXProject "ant-travel-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A814B7B1C2A800900BA3E84;
+			productRefGroup = 1A814B851C2A800900BA3E84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A814B831C2A800900BA3E84 /* ant-travel-ios */,
+				1A814B971C2A800900BA3E84 /* ant-travel-iosTests */,
+				1A814BA21C2A800900BA3E84 /* ant-travel-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A814B821C2A800900BA3E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A814B921C2A800900BA3E84 /* LaunchScreen.storyboard in Resources */,
+				1A814B8F1C2A800900BA3E84 /* Assets.xcassets in Resources */,
+				1A814B8D1C2A800900BA3E84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A814B961C2A800900BA3E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A814BA11C2A800900BA3E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A814B801C2A800900BA3E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A814B8A1C2A800900BA3E84 /* ViewController.swift in Sources */,
+				1A814B881C2A800900BA3E84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A814B941C2A800900BA3E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A814B9D1C2A800900BA3E84 /* ant_travel_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A814B9F1C2A800900BA3E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A814BA81C2A800900BA3E84 /* ant_travel_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A814B9A1C2A800900BA3E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A814B831C2A800900BA3E84 /* ant-travel-ios */;
+			targetProxy = 1A814B991C2A800900BA3E84 /* PBXContainerItemProxy */;
+		};
+		1A814BA51C2A800900BA3E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A814B831C2A800900BA3E84 /* ant-travel-ios */;
+			targetProxy = 1A814BA41C2A800900BA3E84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A814B8B1C2A800900BA3E84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A814B8C1C2A800900BA3E84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A814B901C2A800900BA3E84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A814B911C2A800900BA3E84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A814BAA1C2A800900BA3E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A814BAB1C2A800900BA3E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A814BAD1C2A800900BA3E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ant-travel-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoheaven.ant-travel-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1A814BAE1C2A800900BA3E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ant-travel-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoheaven.ant-travel-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A814BB01C2A800900BA3E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ant-travel-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoheaven.ant-travel-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ant-travel-ios.app/ant-travel-ios";
+			};
+			name = Debug;
+		};
+		1A814BB11C2A800900BA3E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ant-travel-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoheaven.ant-travel-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ant-travel-ios.app/ant-travel-ios";
+			};
+			name = Release;
+		};
+		1A814BB31C2A800900BA3E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ant-travel-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoheaven.ant-travel-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ant-travel-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1A814BB41C2A800900BA3E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ant-travel-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoheaven.ant-travel-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ant-travel-ios";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A814B7F1C2A800900BA3E84 /* Build configuration list for PBXProject "ant-travel-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A814BAA1C2A800900BA3E84 /* Debug */,
+				1A814BAB1C2A800900BA3E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A814BAC1C2A800900BA3E84 /* Build configuration list for PBXNativeTarget "ant-travel-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A814BAD1C2A800900BA3E84 /* Debug */,
+				1A814BAE1C2A800900BA3E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A814BAF1C2A800900BA3E84 /* Build configuration list for PBXNativeTarget "ant-travel-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A814BB01C2A800900BA3E84 /* Debug */,
+				1A814BB11C2A800900BA3E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A814BB21C2A800900BA3E84 /* Build configuration list for PBXNativeTarget "ant-travel-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A814BB31C2A800900BA3E84 /* Debug */,
+				1A814BB41C2A800900BA3E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A814B7C1C2A800900BA3E84 /* Project object */;
+}
