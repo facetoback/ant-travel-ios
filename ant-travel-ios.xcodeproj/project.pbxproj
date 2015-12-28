@@ -216,7 +216,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = xiaoheng;
+				ORGANIZATIONNAME = facetoback;
 				TargetAttributes = {
 					1A814B831C2A800900BA3E84 = {
 						CreatedOnToolsVersion = 7.2;
@@ -479,7 +479,7 @@
 				INFOPLIST_FILE = "ant-travel-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoheaven.ant-travel-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facetoback.ant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -492,7 +492,7 @@
 				INFOPLIST_FILE = "ant-travel-ios/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoheaven.ant-travel-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facetoback.ant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

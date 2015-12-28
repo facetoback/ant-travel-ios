@@ -3,7 +3,7 @@
 //  ant-travel-iosUITests
 //
 //  Created by 肖恒 on 15/12/23.
-//  Copyright © 2015年 xiaoheng. All rights reserved.
+//  Copyright © 2015年 facetoback. All rights reserved.
 //
 
 import XCTest
