@@ -84,12 +84,16 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${PODS_ROOT}/AVOSCloudDynamic/iOS/release-v3.1.7.1/Dynamic/AVOSCloud.framework"
   install_framework "Pods/Alamofire.framework"
+  install_framework "Pods/LeanCloudSocialDynamic.framework"
   install_framework "Pods/SDWebImage.framework"
   install_framework "Pods/SVProgressHUD.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${PODS_ROOT}/AVOSCloudDynamic/iOS/release-v3.1.7.1/Dynamic/AVOSCloud.framework"
   install_framework "Pods/Alamofire.framework"
+  install_framework "Pods/LeanCloudSocialDynamic.framework"
   install_framework "Pods/SDWebImage.framework"
   install_framework "Pods/SVProgressHUD.framework"
 fi

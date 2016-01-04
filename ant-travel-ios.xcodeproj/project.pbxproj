@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		1A814B881C2A800900BA3E84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A814B871C2A800900BA3E84 /* AppDelegate.swift */; };
 		1A814B8A1C2A800900BA3E84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A814B891C2A800900BA3E84 /* ViewController.swift */; };
-		1A814B8D1C2A800900BA3E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A814B8B1C2A800900BA3E84 /* Main.storyboard */; };
 		1A814B8F1C2A800900BA3E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A814B8E1C2A800900BA3E84 /* Assets.xcassets */; };
 		1A814B921C2A800900BA3E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A814B901C2A800900BA3E84 /* LaunchScreen.storyboard */; };
 		1A814B9D1C2A800900BA3E84 /* ant_travel_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A814B9C1C2A800900BA3E84 /* ant_travel_iosTests.swift */; };
 		1A814BA81C2A800900BA3E84 /* ant_travel_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A814BA71C2A800900BA3E84 /* ant_travel_iosUITests.swift */; };
+		1A93F9AB1C3A191700277901 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93F9AA1C3A191700277901 /* common.swift */; };
 		F956786C49A0BB64791D4099 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEA1EEEF13AEF048BB9BB523 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +39,6 @@
 		1A814B841C2A800900BA3E84 /* ant-travel-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ant-travel-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A814B871C2A800900BA3E84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A814B891C2A800900BA3E84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1A814B8C1C2A800900BA3E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A814B8E1C2A800900BA3E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A814B911C2A800900BA3E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A814B931C2A800900BA3E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,8 @@
 		1A814BA31C2A800900BA3E84 /* ant-travel-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ant-travel-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A814BA71C2A800900BA3E84 /* ant_travel_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ant_travel_iosUITests.swift; sourceTree = "<group>"; };
 		1A814BA91C2A800900BA3E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A93F9A91C3A135D00277901 /* Ant-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ant-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A93F9AA1C3A191700277901 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 		F513932AEA673C1D7F598084 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FEA1EEEF13AEF048BB9BB523 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,10 +116,11 @@
 			children = (
 				1A814B871C2A800900BA3E84 /* AppDelegate.swift */,
 				1A814B891C2A800900BA3E84 /* ViewController.swift */,
-				1A814B8B1C2A800900BA3E84 /* Main.storyboard */,
 				1A814B8E1C2A800900BA3E84 /* Assets.xcassets */,
 				1A814B901C2A800900BA3E84 /* LaunchScreen.storyboard */,
 				1A814B931C2A800900BA3E84 /* Info.plist */,
+				1A93F9A91C3A135D00277901 /* Ant-Bridging-Header.h */,
+				1A93F9AA1C3A191700277901 /* common.swift */,
 			);
 			path = "ant-travel-ios";
 			sourceTree = "<group>";
@@ -261,7 +263,6 @@
 			files = (
 				1A814B921C2A800900BA3E84 /* LaunchScreen.storyboard in Resources */,
 				1A814B8F1C2A800900BA3E84 /* Assets.xcassets in Resources */,
-				1A814B8D1C2A800900BA3E84 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +337,7 @@
 			files = (
 				1A814B8A1C2A800900BA3E84 /* ViewController.swift in Sources */,
 				1A814B881C2A800900BA3E84 /* AppDelegate.swift in Sources */,
+				1A93F9AB1C3A191700277901 /* common.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1A814B8B1C2A800900BA3E84 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A814B8C1C2A800900BA3E84 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A814B901C2A800900BA3E84 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -481,6 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facetoback.ant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ant-travel-ios/Ant-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -494,6 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.facetoback.ant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ant-travel-ios/Ant-Bridging-Header.h";
 			};
 			name = Release;
 		};
