@@ -16,13 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         //leanCloud配置
-        AVOSCloud.setApplicationId(leanCloudAppId, clientKey: leanCloudAppKey)
+//        AVOSCloud.setApplicationId(leanCloudAppId, clientKey: leanCloudAppKey)
         //leanCloud跟踪统计应用的打开情况
-        AVAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+//        AVAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         
         // 创建keywindow
         window = UIWindow(frame: UIScreen.mainScreen().bounds)
-        window?.rootViewController = ViewController()
+        let navc =  UINavigationController(rootViewController: ViewController())
+        window?.rootViewController = navc
         window?.makeKeyAndVisible()
         
         return true

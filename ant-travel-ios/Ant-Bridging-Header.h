@@ -9,8 +9,8 @@
 #ifndef Ant_Bridging_Header_h
 #define Ant_Bridging_Header_h
 
-#import <AVOSCloud/AVOSCloud.h>
+//#import <AVOSCloud/AVOSCloud.h>
 //如果使用了实时通信模块，请添加下列导入语句到头部：
-#import <AVOSCloudIM.h>
+//#import <AVOSCloudIM.h>
 
 #endif /* Ant_Bridging_Header_h */
