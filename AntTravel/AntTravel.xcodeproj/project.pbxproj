@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A456F0E1C592A6B00DCDC97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A456F0D1C592A6B00DCDC97 /* Assets.xcassets */; };
+		1A456F1C1C592A6C00DCDC97 /* AntTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A456F1B1C592A6C00DCDC97 /* AntTravelTests.swift */; };
+		1A456F271C592A6C00DCDC97 /* AntTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A456F261C592A6C00DCDC97 /* AntTravelUITests.swift */; };
+		1A456F361C592B5B00DCDC97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A456F351C592B5B00DCDC97 /* AppDelegate.swift */; };
+		1A456F381C592C0F00DCDC97 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A456F371C592C0F00DCDC97 /* Common.swift */; };
+		1A456F451C592C2500DCDC97 /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A456F3B1C592C2400DCDC97 /* DiscoverTableViewController.swift */; };
+		1A456F461C592C2500DCDC97 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A456F3D1C592C2500DCDC97 /* HomeTableViewController.swift */; };
+		1A456F471C592C2500DCDC97 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A456F3F1C592C2500DCDC97 /* MainViewController.swift */; };
+		1A456F481C592C2500DCDC97 /* MeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A456F411C592C2500DCDC97 /* MeTableViewController.swift */; };
+		1A456F491C592C2500DCDC97 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A456F431C592C2500DCDC97 /* MessageTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A456F181C592A6C00DCDC97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A456EFB1C592A6B00DCDC97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A456F021C592A6B00DCDC97;
+			remoteInfo = AntTravel;
+		};
+		1A456F231C592A6C00DCDC97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A456EFB1C592A6B00DCDC97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A456F021C592A6B00DCDC97;
+			remoteInfo = AntTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A456F031C592A6B00DCDC97 /* AntTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AntTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A456F0D1C592A6B00DCDC97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A456F121C592A6B00DCDC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A456F171C592A6B00DCDC97 /* AntTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A456F1B1C592A6C00DCDC97 /* AntTravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntTravelTests.swift; sourceTree = "<group>"; };
+		1A456F1D1C592A6C00DCDC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A456F221C592A6C00DCDC97 /* AntTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A456F261C592A6C00DCDC97 /* AntTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntTravelUITests.swift; sourceTree = "<group>"; };
+		1A456F281C592A6C00DCDC97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A456F341C592B5A00DCDC97 /* AntTravel-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AntTravel-Bridging-Header.h"; sourceTree = "<group>"; };
+		1A456F351C592B5B00DCDC97 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A456F371C592C0F00DCDC97 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		1A456F3B1C592C2400DCDC97 /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
+		1A456F3D1C592C2500DCDC97 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		1A456F3F1C592C2500DCDC97 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1A456F411C592C2500DCDC97 /* MeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeTableViewController.swift; sourceTree = "<group>"; };
+		1A456F431C592C2500DCDC97 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A456F001C592A6B00DCDC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A456F141C592A6B00DCDC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A456F1F1C592A6C00DCDC97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A456EFA1C592A6B00DCDC97 = {
+			isa = PBXGroup;
+			children = (
+				1A456F051C592A6B00DCDC97 /* AntTravel */,
+				1A456F1A1C592A6C00DCDC97 /* AntTravelTests */,
+				1A456F251C592A6C00DCDC97 /* AntTravelUITests */,
+				1A456F041C592A6B00DCDC97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A456F041C592A6B00DCDC97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A456F031C592A6B00DCDC97 /* AntTravel.app */,
+				1A456F171C592A6B00DCDC97 /* AntTravelTests.xctest */,
+				1A456F221C592A6C00DCDC97 /* AntTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A456F051C592A6B00DCDC97 /* AntTravel */ = {
+			isa = PBXGroup;
+			children = (
+				1A456F391C592C2400DCDC97 /* Classes */,
+				1A456F0D1C592A6B00DCDC97 /* Assets.xcassets */,
+				1A456F351C592B5B00DCDC97 /* AppDelegate.swift */,
+				1A456F371C592C0F00DCDC97 /* Common.swift */,
+				1A456F121C592A6B00DCDC97 /* Info.plist */,
+				1A456F341C592B5A00DCDC97 /* AntTravel-Bridging-Header.h */,
+			);
+			path = AntTravel;
+			sourceTree = "<group>";
+		};
+		1A456F1A1C592A6C00DCDC97 /* AntTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A456F1B1C592A6C00DCDC97 /* AntTravelTests.swift */,
+				1A456F1D1C592A6C00DCDC97 /* Info.plist */,
+			);
+			path = AntTravelTests;
+			sourceTree = "<group>";
+		};
+		1A456F251C592A6C00DCDC97 /* AntTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A456F261C592A6C00DCDC97 /* AntTravelUITests.swift */,
+				1A456F281C592A6C00DCDC97 /* Info.plist */,
+			);
+			path = AntTravelUITests;
+			sourceTree = "<group>";
+		};
+		1A456F391C592C2400DCDC97 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1A456F3E1C592C2500DCDC97 /* Main(主要) */,
+				1A456F3C1C592C2500DCDC97 /* Home(首页) */,
+				1A456F3A1C592C2400DCDC97 /* Discover(发现) */,
+				1A456F421C592C2500DCDC97 /* Message(消息) */,
+				1A456F401C592C2500DCDC97 /* Me(我) */,
+				1A456F441C592C2500DCDC97 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1A456F3A1C592C2400DCDC97 /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				1A456F3B1C592C2400DCDC97 /* DiscoverTableViewController.swift */,
+			);
+			name = "Discover(发现)";
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		1A456F3C1C592C2500DCDC97 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				1A456F3D1C592C2500DCDC97 /* HomeTableViewController.swift */,
+			);
+			name = "Home(首页)";
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1A456F3E1C592C2500DCDC97 /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				1A456F3F1C592C2500DCDC97 /* MainViewController.swift */,
+			);
+			name = "Main(主要)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1A456F401C592C2500DCDC97 /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				1A456F411C592C2500DCDC97 /* MeTableViewController.swift */,
+			);
+			name = "Me(我)";
+			path = Me;
+			sourceTree = "<group>";
+		};
+		1A456F421C592C2500DCDC97 /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				1A456F431C592C2500DCDC97 /* MessageTableViewController.swift */,
+			);
+			name = "Message(消息)";
+			path = Message;
+			sourceTree = "<group>";
+		};
+		1A456F441C592C2500DCDC97 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A456F021C592A6B00DCDC97 /* AntTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A456F2B1C592A6C00DCDC97 /* Build configuration list for PBXNativeTarget "AntTravel" */;
+			buildPhases = (
+				1A456EFF1C592A6B00DCDC97 /* Sources */,
+				1A456F001C592A6B00DCDC97 /* Frameworks */,
+				1A456F011C592A6B00DCDC97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AntTravel;
+			productName = AntTravel;
+			productReference = 1A456F031C592A6B00DCDC97 /* AntTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A456F161C592A6B00DCDC97 /* AntTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A456F2E1C592A6C00DCDC97 /* Build configuration list for PBXNativeTarget "AntTravelTests" */;
+			buildPhases = (
+				1A456F131C592A6B00DCDC97 /* Sources */,
+				1A456F141C592A6B00DCDC97 /* Frameworks */,
+				1A456F151C592A6B00DCDC97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A456F191C592A6C00DCDC97 /* PBXTargetDependency */,
+			);
+			name = AntTravelTests;
+			productName = AntTravelTests;
+			productReference = 1A456F171C592A6B00DCDC97 /* AntTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A456F211C592A6C00DCDC97 /* AntTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A456F311C592A6C00DCDC97 /* Build configuration list for PBXNativeTarget "AntTravelUITests" */;
+			buildPhases = (
+				1A456F1E1C592A6C00DCDC97 /* Sources */,
+				1A456F1F1C592A6C00DCDC97 /* Frameworks */,
+				1A456F201C592A6C00DCDC97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A456F241C592A6C00DCDC97 /* PBXTargetDependency */,
+			);
+			name = AntTravelUITests;
+			productName = AntTravelUITests;
+			productReference = 1A456F221C592A6C00DCDC97 /* AntTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A456EFB1C592A6B00DCDC97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = facetoback;
+				TargetAttributes = {
+					1A456F021C592A6B00DCDC97 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8CFNW2BD69;
+					};
+					1A456F161C592A6B00DCDC97 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8CFNW2BD69;
+						TestTargetID = 1A456F021C592A6B00DCDC97;
+					};
+					1A456F211C592A6C00DCDC97 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8CFNW2BD69;
+						TestTargetID = 1A456F021C592A6B00DCDC97;
+					};
+				};
+			};
+			buildConfigurationList = 1A456EFE1C592A6B00DCDC97 /* Build configuration list for PBXProject "AntTravel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A456EFA1C592A6B00DCDC97;
+			productRefGroup = 1A456F041C592A6B00DCDC97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A456F021C592A6B00DCDC97 /* AntTravel */,
+				1A456F161C592A6B00DCDC97 /* AntTravelTests */,
+				1A456F211C592A6C00DCDC97 /* AntTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A456F011C592A6B00DCDC97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A456F0E1C592A6B00DCDC97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A456F151C592A6B00DCDC97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A456F201C592A6C00DCDC97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A456EFF1C592A6B00DCDC97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A456F461C592C2500DCDC97 /* HomeTableViewController.swift in Sources */,
+				1A456F381C592C0F00DCDC97 /* Common.swift in Sources */,
+				1A456F451C592C2500DCDC97 /* DiscoverTableViewController.swift in Sources */,
+				1A456F361C592B5B00DCDC97 /* AppDelegate.swift in Sources */,
+				1A456F471C592C2500DCDC97 /* MainViewController.swift in Sources */,
+				1A456F481C592C2500DCDC97 /* MeTableViewController.swift in Sources */,
+				1A456F491C592C2500DCDC97 /* MessageTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A456F131C592A6B00DCDC97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A456F1C1C592A6C00DCDC97 /* AntTravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A456F1E1C592A6C00DCDC97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A456F271C592A6C00DCDC97 /* AntTravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A456F191C592A6C00DCDC97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A456F021C592A6B00DCDC97 /* AntTravel */;
+			targetProxy = 1A456F181C592A6C00DCDC97 /* PBXContainerItemProxy */;
+		};
+		1A456F241C592A6C00DCDC97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A456F021C592A6B00DCDC97 /* AntTravel */;
+			targetProxy = 1A456F231C592A6C00DCDC97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A456F291C592A6C00DCDC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A456F2A1C592A6C00DCDC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A456F2C1C592A6C00DCDC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AntTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facetoback.AntTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AntTravel/AntTravel-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A456F2D1C592A6C00DCDC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = AntTravel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facetoback.AntTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AntTravel/AntTravel-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		1A456F2F1C592A6C00DCDC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AntTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facetoback.AntTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntTravel.app/AntTravel";
+			};
+			name = Debug;
+		};
+		1A456F301C592A6C00DCDC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AntTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facetoback.AntTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AntTravel.app/AntTravel";
+			};
+			name = Release;
+		};
+		1A456F321C592A6C00DCDC97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AntTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facetoback.AntTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AntTravel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1A456F331C592A6C00DCDC97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AntTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.facetoback.AntTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AntTravel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A456EFE1C592A6B00DCDC97 /* Build configuration list for PBXProject "AntTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A456F291C592A6C00DCDC97 /* Debug */,
+				1A456F2A1C592A6C00DCDC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A456F2B1C592A6C00DCDC97 /* Build configuration list for PBXNativeTarget "AntTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A456F2C1C592A6C00DCDC97 /* Debug */,
+				1A456F2D1C592A6C00DCDC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A456F2E1C592A6C00DCDC97 /* Build configuration list for PBXNativeTarget "AntTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A456F2F1C592A6C00DCDC97 /* Debug */,
+				1A456F301C592A6C00DCDC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A456F311C592A6C00DCDC97 /* Build configuration list for PBXNativeTarget "AntTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A456F321C592A6C00DCDC97 /* Debug */,
+				1A456F331C592A6C00DCDC97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A456EFB1C592A6B00DCDC97 /* Project object */;
+}
