@@ -14,7 +14,7 @@ class MainViewController: UITabBarController {
         super.viewDidLoad()
         
         // 1.添加子控制器
-        addChildViewController("HomeTableViewController", imageName: "tabbar_home", title: "首页")
+        addChildViewController("HomeTableViewController", imageName: "tabbar_home", title: "出发")
         addChildViewController("DiscoverTableViewController", imageName: "tabbar_discover", title: "发现")
         addChildViewController("MessageTableViewController", imageName: "tabbar_message_center", title: "消息")
         addChildViewController("MeTableViewController", imageName: "tabbar_profile", title: "我的")
@@ -32,7 +32,7 @@ class MainViewController: UITabBarController {
         // 1.通过一个字符串创建一个类
         let cls: AnyClass? = NSClassFromString(nsp + "." + childControllerName)
         
-        // 2.通过一个Class创建一个对象 在Swift中如果向通过一个AnyClass来创建一个对象, 必须先明确这个类的类型
+        // 2.通过一个Class创建一个对象
         guard let vcCls = cls as? UITableViewController.Type else
         {
             DLog("AnyClass没有值")
