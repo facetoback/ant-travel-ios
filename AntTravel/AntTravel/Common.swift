@@ -7,6 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+let SCREENWIDTH = UIScreen.mainScreen().bounds.width
 
 // leanCloud
 let leanCloudAppId = "JO2ayD728HwvIT6KESW1jEa5-gzGzoHsz"

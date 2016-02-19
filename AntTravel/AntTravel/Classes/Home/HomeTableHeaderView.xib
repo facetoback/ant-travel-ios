@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HomeTableHeaderView" customModule="AntTravel" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ilW-Es-81N">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6hf-87-WU4" userLabel="buttons">
+                            <rect key="frame" x="0.0" y="100" width="375" height="100"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XK8-0T-xgN">
+                                    <rect key="frame" x="21" y="35" width="60" height="30"/>
+                                    <state key="normal" title="精选行程"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ek-EF-6GA">
+                                    <rect key="frame" x="96" y="35" width="75" height="30"/>
+                                    <state key="normal" title="热门目的地"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsR-gN-ggJ">
+                                    <rect key="frame" x="285" y="36" width="45" height="30"/>
+                                    <state key="normal" title="找司机"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvO-Tj-26h">
+                                    <rect key="frame" x="198" y="36" width="45" height="30"/>
+                                    <state key="normal" title="找客栈"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="0.68624307149999997" blue="0.9702251865" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k9c-47-ebl">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                            <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </scrollView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="6hf-87-WU4" firstAttribute="leading" secondItem="ilW-Es-81N" secondAttribute="leading" id="0UD-jX-XFq"/>
+                        <constraint firstItem="k9c-47-ebl" firstAttribute="top" secondItem="ilW-Es-81N" secondAttribute="top" id="DOU-YW-Swz"/>
+                        <constraint firstItem="k9c-47-ebl" firstAttribute="leading" secondItem="ilW-Es-81N" secondAttribute="leading" id="F08-me-fPh"/>
+                        <constraint firstAttribute="bottom" secondItem="6hf-87-WU4" secondAttribute="bottom" id="IFi-xi-a6c"/>
+                        <constraint firstItem="k9c-47-ebl" firstAttribute="height" secondItem="6hf-87-WU4" secondAttribute="height" id="MNR-Vg-cEF"/>
+                        <constraint firstAttribute="trailing" secondItem="6hf-87-WU4" secondAttribute="trailing" id="Rbh-BT-nOt"/>
+                        <constraint firstItem="6hf-87-WU4" firstAttribute="top" secondItem="k9c-47-ebl" secondAttribute="bottom" id="n80-1T-ptR"/>
+                        <constraint firstAttribute="trailing" secondItem="k9c-47-ebl" secondAttribute="trailing" id="yLs-en-mFy"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ilW-Es-81N" secondAttribute="trailing" id="QYq-oN-HQ0"/>
+                <constraint firstItem="ilW-Es-81N" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RaW-rT-Qlf"/>
+                <constraint firstAttribute="bottom" secondItem="ilW-Es-81N" secondAttribute="bottom" id="tqg-XM-2EJ"/>
+                <constraint firstItem="ilW-Es-81N" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vMq-53-6LW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="findDriver" destination="EsR-gN-ggJ" id="6MW-sm-dzs"/>
+                <outlet property="scrollView" destination="k9c-47-ebl" id="Y9q-Ia-QrD"/>
+            </connections>
+            <point key="canvasLocation" x="323.5" y="234"/>
+        </view>
+    </objects>
+</document>
