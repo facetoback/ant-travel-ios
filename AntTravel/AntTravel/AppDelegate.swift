@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 
-func DLog<T>(message: T, method: String = __FUNCTION__, line: Int = __LINE__)
+func DLog<T>(message: T, method: String = #function, line: Int = #line)
 {
     #if DEBUG
         print("\(method)[\(line)]: \(message)")

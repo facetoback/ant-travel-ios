@@ -15,15 +15,15 @@ class HomeTableViewController: UITableViewController {
     private lazy var headerView : UIView = {
         let header = HomeTableHeaderView.headerView()
         header.frame = CGRect(x: 0, y: 0, width: SCREENWIDTH, height: 200)
-        header.findDriver.addTarget(self, action: "rightClick", forControlEvents: UIControlEvents.TouchUpInside)
+        header.findDriver.addTarget(self, action: #selector(HomeTableViewController.rightClick), forControlEvents: UIControlEvents.TouchUpInside)
         return header
     }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.tableHeaderView = headerView;
-        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "北京", style: UIBarButtonItemStyle.Plain, target: self, action: "leftClick")
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "发布", style: UIBarButtonItemStyle.Plain, target: self, action: "rightClick")
+        navigationItem.leftBarButtonItem = UIBarButtonItem(title: "北京", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(HomeTableViewController.leftClick))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "发布", style: UIBarButtonItemStyle.Plain, target: self, action: #selector(HomeTableViewController.rightClick))
         
         tableView.registerClass(HomeTableViewCell.self, forCellReuseIdentifier: cellId)
     }
@@ -65,13 +65,14 @@ class HomeTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 20
+        return 10
     }
-    
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 45;
+    }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(cellId, forIndexPath: indexPath)
-        
         cell.textLabel?.text = "\(indexPath.row+1)"
         return cell
     }
